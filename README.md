@@ -24,33 +24,17 @@ Il codice è breve e ben documentato, quindi può facilmente essere esteso per c
 Pull request sono ben accette. Questo progetto è nato come un semplice esempio (benché funzionante), quindi
 ci sono ampi margini di miglioramento e potenziamento.
 
-### Lista classi.
-- **Cartella.java**
-  class Cartella: una cartella di tombola, tiene traccia dei numeri che contiene e se sono segnati o meno
-
-- **Gestore.java**
-class Gestore: gestisce le iscrizioni dei giocatori alle partite e inizia le partite quando si raggiunge
-il minimo per giocare. Le costanti NUM_GIOCATORI e PREZZO_CARTELLA sono modificabili.
-
-- **Giocatore.java**
-class Giocatore: un giocatore, indicato da un nome (testo). Contiene una cartella (assegnata
-ad ogni inizio partita) e un registro delle vincite e della somma totale vinta.
-
-- **Partita.java**
-class Partita: singola partita. Contiene un elenco di giocatori e un tabellone.
-
-- **Tabellone.java**
-class Tabellone: tabellone di gioco. Contiene i numeri da 1 a 90 da estrarre in ordine casuale.
-
-- **Test.java**
-class Test: piccola classe con un main() per testare il funzionamento delle altre classi. Non è
-necessaria per il progetto, ma dà una dimostrazione dell'uso delle altre classi.
-
-- **Utility.java**
-class Utility: classe con metodi statici, generici, utilizzati dalle altre classi.
-
-- **Vincita.java**
-enum Vincita: elenco delle possibili vincite della tombola
+### Lista classi
+| File | Descrizione |
+|------|-------------|
+| **Cartella.java** | una cartella di tombola, tiene traccia dei numeri che contiene e se sono segnati o meno |
+| **Gestore.java** | gestisce le iscrizioni dei giocatori alle partite e inizia le partite quando si raggiunge il minimo per giocare. Le costanti *NUM_GIOCATORI* e *PREZZO_CARTELLA* sono modificabili. |
+| **Giocatore.java** | un giocatore, indicato da un nome (testo). Contiene una cartella (assegnata ad ogni inizio partita) e un registro delle vincite e della somma totale vinta. |
+| **Partita.java** | singola partita. Contiene un elenco di giocatori e un tabellone. |
+| **Tabellone.java** | tabellone di gioco. Contiene i numeri da 1 a 90 da estrarre in ordine casuale. |
+| **Test.java** | piccola classe con un main() per testare il funzionamento delle altre classi. Non è necessaria per il progetto, ma dà una dimostrazione dell'uso delle altre classi. |
+| **Utility.java** | classe con metodi statici, generici, utilizzati dalle altre classi. |
+| **Vincita.java** | elenco delle possibili vincite della tombola |
 
 
 ### Compilare
